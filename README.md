@@ -41,6 +41,35 @@ the open-source community.
 
 For more, please visit the [Open3D documentation](http://www.open3d.org/docs).
 
+## Python quick start
+
+Pre-built pip and conda packages support Ubuntu 18.04+, macOS 10.14+ and
+Windows 10 (64-bit) with Python 3.5, 3.6, 3.7 and 3.8.
+
+```bash
+# Install Open3D stable release with pip
+$ pip install open3d
+
+# Install Open3D stable release with Conda
+$ conda install -c open3d-admin open3d
+
+# Test the installation
+$ python -c "import open3d as o3d; print(o3d)"
+
+```
+
+To test the latest features in Open3D, download and install the
+[development version](http://www.open3d.org/docs/latest/getting_started.html#development-version-pip)
+
+
+To compile Open3D from source, see
+[compiling from source](http://www.open3d.org/docs/release/compilation.html).
+
+## C++ quick start
+
+Please refer to [compiling from source](http://www.open3d.org/docs/release/compilation.html)
+and [Open3D C++ interface](http://www.open3d.org/docs/release/tutorial/C++/cplusplus_interface.html).
+
 ## Open3D viewer app
 
 <img align="left" width="480" src="https://raw.githubusercontent.com/intel-isl/Open3D/master/docs/_static/open3d_viewer.png">
@@ -62,42 +91,6 @@ top of the Open3D core library and extends it with machine learning tools for
 3D data processing. Check it out at [Open3D-ML](https://github.com/intel-isl/Open3D-ML).
 
 <br clear="left"/>
-
-## Python quick start
-
-Pre-built pip and conda packages support Ubuntu 18.04+, macOS 10.14+ and
-Windows 10 (64-bit) with Python 3.5, 3.6, 3.7 and 3.8. If you have other Python
-versions or operating systems, please
-[compile Open3D from source](http://www.open3d.org/docs/release/compilation.html).
-
-* To install Open3D with pip:
-
-    ```bash
-    $ pip install open3d
-    ```
-    To test the latest features in Open3D, download and install the [development version](http://www.open3d.org/docs/latest/getting_started.html#development-version-pip)
-
-* To install Open3D with Conda:
-
-    ```bash
-    $ conda install -c open3d-admin open3d
-    ```
-
-* To compile Open3D from source:
-    * See [compiling from source](http://www.open3d.org/docs/release/compilation.html).
-
-Test your installation with:
-
-```bash
-$ python -c "import open3d as o3d"
-```
-
-and follow the tutorials to get started.
-
-## C++ quick start
-
-Please refer to [compiling from source](http://www.open3d.org/docs/release/compilation.html)
-and [Open3D C++ interface](http://www.open3d.org/docs/release/tutorial/C++/cplusplus_interface.html).
 
 ## Communication channels
 
