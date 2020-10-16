@@ -53,6 +53,13 @@ You can download Open3D viewer from
 
 <br clear="left"/>
 
+
+## Open3D ML
+
+Open3D-ML is an extension of Open3D for 3D machine learning tasks. It builds on
+top of the Open3D core library and extends it with machine learning tools for
+3D data processing. Check it out at [Open3D-ML](https://github.com/intel-isl/Open3D-ML).
+
 ## Python quick start
 
 Pre-built pip and conda packages support Ubuntu 18.04+, macOS 10.14+ and
