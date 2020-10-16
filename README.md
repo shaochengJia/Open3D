@@ -53,12 +53,15 @@ You can download Open3D viewer from
 
 <br clear="left"/>
 
-
 ## Open3D ML
+
+<img align="left" width="480" src="https://raw.githubusercontent.com/intel-isl/Open3D-ML/master/docs/images/getting_started_ml_visualizer.gif">
 
 Open3D-ML is an extension of Open3D for 3D machine learning tasks. It builds on
 top of the Open3D core library and extends it with machine learning tools for
 3D data processing. Check it out at [Open3D-ML](https://github.com/intel-isl/Open3D-ML).
+
+<br clear="left"/>
 
 ## Python quick start
 
